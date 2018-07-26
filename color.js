@@ -49,6 +49,7 @@ ezBtn.addEventListener("click",loadEZ);
 dHard.addEventListener("click",loadHard);
 
 nCBtn.addEventListener("click", function(){
+	nCBtn.textContent = "New Colors"
 	if(ezBtn.classList.contains("active")){
 		loadEZ();
 	}else{
