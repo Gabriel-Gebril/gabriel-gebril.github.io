@@ -42,7 +42,7 @@ function loadEZ(){
 	}
 }
 
-document.addEventListener("DOMContentLoaded", loadHard);
+loadHard();
 
 ezBtn.addEventListener("click",loadEZ);
 
@@ -61,15 +61,23 @@ for (var i = cBtn.length - 1; i >= 0; i--) {
 
 		if(this.style.backgroundColor === cDisplay.textContent){
 			msg.textContent = "Correct";
+			nCBtn.textContent = "Try Again?"
 			document.querySelector(".jumbotron").style.backgroundColor = cDisplay.textContent;
-			for (var j = cBtn.length - 1; j >= 0; j--) {
+			if(ezBtn.classList.contains("active")){
+				for (var j = 2; j >= 0; j--) {
 				cBtn[j].style.visibility = "visible";
 				cBtn[j].style.backgroundColor = cDisplay.textContent;
+				}
+			}else{
+				for (var j = cBtn.length - 1; j >= 0; j--) {
+				cBtn[j].style.visibility = "visible";
+				cBtn[j].style.backgroundColor = cDisplay.textContent;
+				}
 			}
+			
 		}else{
 			msg.textContent = "Try Again!";
 			this.style.visibility = "hidden";
 		}
 	});
 }
-
