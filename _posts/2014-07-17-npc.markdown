@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: NPC.png
+alt: image-alt
+description: I'm the Niagara Palestine Coalition (NPC) spokesperson though I tend to wear quite a few hats. You can check out their website by clicking <a target="_blank" href="https://niagarapalestinecoalition.ca/">[here]</a>. You'll notice a few similarities to my own website (which should tell you something lol).
+---
