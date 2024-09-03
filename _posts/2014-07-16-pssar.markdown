@@ -4,5 +4,5 @@ modal-id: 3
 date: 2014-07-16
 img: pssar.png
 alt: image-alt
-description: I'm the leader of the tech/eng steam of the Palestinian Students & Scholars at Risk (PSSAR) intiative. I occationally help with their data and project management infrastrcture as well. You can learn more about PSSAR by clicking <a target="_blank" href="https://pssar.ca/our-mission">[here]</a>.
+description: I'm the leader of the tech/eng stream of the Palestinian Students & Scholars at Risk (PSSAR) intiative. I occationally help with their data and project management infrastrcture as well. You can learn more about PSSAR by clicking <a target="_blank" href="https://pssar.ca/our-mission">[here]</a>.
 ---
