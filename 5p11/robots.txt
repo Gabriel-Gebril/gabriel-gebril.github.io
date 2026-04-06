@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://gabrielg.me/5p11/sitemap.xml
+Sitemap: https://gabrielg.me/sitemap.xml
